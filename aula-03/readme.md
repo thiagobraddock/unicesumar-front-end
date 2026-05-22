@@ -9,7 +9,21 @@
 - [ ] Recap da aula passada
 - [ ] Vendo onde vamos chegar
 
-**Começando pelas skills**
+**Header em flex**
+
+- [ ] Foto e texto lado a lado
+- [ ] Alinhamento vertical com align-items
+- [ ] Protegendo a foto com flex-shrink
+
+**Skills**
+
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Box Model</li>
+    <li>Flexbox</li>
+    <li>Media Queries</li>
+    <li>Responsividade</li>
+    <li>Semântica</li>
 
 - [ ] Transformando a lista em flex container
 - [ ] Os items, filhos do flex
@@ -17,12 +31,6 @@
 - [ ] Por que precisamos do flex-wrap
 - [ ] Espaçamento com gap
 - [ ] Estilizando as pills
-
-**Header em flex**
-
-- [ ] Foto e texto lado a lado
-- [ ] Alinhamento vertical com align-items
-- [ ] Protegendo a foto com flex-shrink
 
 **Link e botão alinhados**
 
