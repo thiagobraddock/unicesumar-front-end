@@ -1,6 +1,6 @@
 # Aula 04 · Dando Vida às Páginas com JavaScript
 
-> 28 de maio · 1h40
+> 28 de maio - 1h30
 
 ## Roteiro de hoje
 
@@ -20,22 +20,22 @@
 - [ ] O que é o DOM
 - [ ] Como o JavaScript encontra elementos da página
 - [ ] querySelector na prática
-- [ ] Alterando textos e classes
-- [ ] Eventos com addEventListener
-- [ ] Evento de clique no botão
 
 ---
 
 **Criando interações reais**
 
-- [ ] Exibindo e escondendo elementos
-- [ ] Trabalhando com formulários
-- [ ] Evento de submit
-- [ ] preventDefault
-- [ ] Capturando valores dos inputs
-- [ ] Exibindo feedback visual na tela
-- [ ] Criando HTML com innerHTML
-- [ ] Template literals
+- [x] Alterando textos e classes
+- [x] Eventos com addEventListener
+- [x] Evento de clique no botão
+- [x] Exibindo e escondendo elementos
+- [x] Trabalhando com formulários
+- [x] Evento de submit
+- [x] preventDefault
+- [x] Capturando valores dos inputs
+- [x] Exibindo feedback visual na tela
+- [x] Criando HTML com innerHTML
+- [x] Template literals
 - [ ] Removendo elementos da página
 
 ---
