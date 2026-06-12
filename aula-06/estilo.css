@@ -276,3 +276,33 @@ footer {
   margin: 0;
   line-height: 1;
 }
+
+.aviso {
+  width: 100%;
+  text-align: center;
+  color: #94a3b8;
+  font-style: italic;
+  padding: 24px;
+  border: 1px dashed #cbd5e1;
+  border-radius: 8px;
+}
+
+.aviso.erro {
+  color: #b91c1c;
+  border-color: #fecaca;
+  background: #fef2f2;
+}
+
+.form-skill {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.form-skill input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+}

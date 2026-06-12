@@ -13,10 +13,10 @@
   </head>
   <body>
     <header>
-      <img src="./images/thiago.jpeg" alt="Foto de Thiago Oliveira" />
+      <img src="" alt="Foto de Thiago Oliveira" />
       <div>
-        <h1>Thiago Oliveira</h1>
-        <p class="cargo">Professor e Coordenador</p>
+        <h1></h1>
+        <p class="cargo"></p>
       </div>
     </header>
 
@@ -35,35 +35,23 @@
         <h2>O que estou aprendendo</h2>
 
         <ul class="lista-skills"></ul>
+
         <form class="form-skill">
-          <input type="text" id="nova-skill" />
+          <input
+            class="input-skill"
+            id="nova-skill"
+            type="text"
+            placeholder="Digite uma nova skill"
+            required
+          />
+
+          <button type="submit">Adicionar</button>
         </form>
       </section>
 
       <section>
         <h2>Meus projetos</h2>
-        <div class="projetos">
-          <article>
-            <div class="projeto-imagem projeto-1"></div>
-            <h3>Calculadora</h3>
-            <p>App de calculadora simpels feito com HTML, CSS e JS puro</p>
-            <a href="#">Ver projeto</a>
-          </article>
-
-          <article>
-            <div class="projeto-imagem projeto-2"></div>
-            <h3>Blog</h3>
-            <p>Blog responsivo construído do zero.</p>
-            <a href="#">Ver projeto</a>
-          </article>
-
-          <article>
-            <div class="projeto-imagem projeto-3"></div>
-            <h3>Lista de tarefas</h3>
-            <p>App de calculadora simpels feito com HTML, CSS e JS puro</p>
-            <a href="#">Ver projeto</a>
-          </article>
-        </div>
+        <div class="projetos"></div>
       </section>
 
       <section>
@@ -96,5 +84,6 @@
     </footer>
     <script src="./scripts/formulario.js"></script>
     <script src="./scripts/skills.js"></script>
+    <script src="./scripts/github-api.js"></script>
   </body>
 </html>
