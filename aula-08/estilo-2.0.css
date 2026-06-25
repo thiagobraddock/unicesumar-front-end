@@ -1,0 +1,46 @@
+/* ajustes visuais exclusivos da demo 2.0 */
+
+.projetos-demo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projetos-demo article {
+  min-height: 320px;
+}
+
+.projetos-demo .projeto-imagem {
+  height: 220px;
+  object-fit: cover;
+  background: #e2e8f0;
+}
+
+.painel-status {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.painel-status p {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 0;
+}
+
+.acoes-demo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.btn-reiniciar {
+  background: #0f766e;
+}
+
+.btn-reiniciar:hover {
+  background: #0d5f59;
+}

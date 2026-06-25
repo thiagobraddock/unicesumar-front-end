@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Lazy Loading 2.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./estilo.css" />
+    <link rel="stylesheet" href="./estilo-2.0.css" />
+  </head>
+  <body>
+    <header>
+      <img src="" alt="Foto de Thiago Oliveira" />
+      <div>
+        <h1>Demo Lazy Loading 2.0</h1>
+        <p class="cargo">Demonstração controlada para inspeção no Network</p>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Como Demonstrar</h2>
+        <p>
+          Abra o DevTools no filtro <strong>Img</strong>, recarregue a página e
+          role até os cards. As imagens só são requisitadas quando entram na
+          área visível.
+        </p>
+        <p class="destaque">
+          Aqui o fetch busca apenas os metadados dos repositórios. O
+          carregamento da imagem acontece depois, sob demanda, via
+          IntersectionObserver.
+        </p>
+      </section>
+
+      <section>
+        <h2>Status da Demonstração</h2>
+        <div class="painel-status">
+          <p>
+            <strong>Repos disponíveis:</strong>
+            <span class="stat-total">0</span>
+          </p>
+          <p>
+            <strong>Cards renderizados:</strong>
+            <span class="stat-renderizados">0</span>
+          </p>
+          <p>
+            <strong>Imagens carregadas:</strong>
+            <span class="stat-carregadas">0</span>
+          </p>
+        </div>
+        <div class="acoes-demo">
+          <button class="btn-carregar-mais">Carregar mais 6 cards</button>
+          <button class="btn-reiniciar" type="button">
+            Reiniciar demonstração
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projetos</h2>
+        <div
+          class="projetos projetos-demo"
+          aria-live="polite"
+          aria-label="Lista de projetos carregados"
+        ></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Demo 2.0 para aula de lazy loading.</p>
+    </footer>
+
+    <script src="./scripts/github-api-demo.js"></script>
+  </body>
+</html>

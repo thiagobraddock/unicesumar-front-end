@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thiago Oliveira · Sobre mim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./estilo.css" />
+  </head>
+  <body>
+    <header>
+      <img src="" alt="Foto de Thiago Oliveira" />
+      <div>
+        <h1></h1>
+        <p class="cargo"></p>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Sobre mim</h2>
+        <p>
+          Olá! Sou apaixonado por código, design e por construir coisas que
+          funcionam bem.
+        </p>
+        <p class="destaque">
+          Esta é minha primeira página feita do zero com HTML e CSS.
+        </p>
+      </section>
+      <section class="skills">
+        <h2>O que estou aprendendo</h2>
+
+        <ul class="lista-skills"></ul>
+
+        <form class="form-skill">
+          <label for="nova-skill">Nova skill</label>
+          <input
+            class="input-skill"
+            id="nova-skill"
+            type="text"
+            placeholder="Digite uma nova skill"
+            required
+          />
+
+          <button type="submit">Adicionar</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Meus projetos</h2>
+        <div
+          class="projetos"
+          aria-live="polite"
+          aria-label="Lista de projetos carregados"
+        ></div>
+      </section>
+
+      <section>
+        <h2>Vamos conversar?</h2>
+        <p>Você pode me encontrar nos meus perfis ou enviar uma mensagem.</p>
+        <a href="https://github.com/thiagobraddock">Meu GitHub</a>
+        <button
+          class="btn-mensagem"
+          aria-controls="form-contato"
+          aria-expanded="false"
+        >
+          Enviar mensagem
+        </button>
+
+        <!-- adição do formulário para a aula -->
+        <form
+          class="formulario-contato escondido"
+          id="form-contato"
+          aria-hidden="true"
+        >
+          <label for="nome-usuario">Nome</label>
+          <input type="text" class="input-nome" id="nome-usuario" />
+
+          <label for="email-usuario">Email</label>
+          <input type="email" class="input-email" id="email-usuario" />
+
+          <label for="mensagem-usuario">Mensagem</label>
+          <textarea class="input-mensagem" id="mensagem-usuario"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+
+        <p class="feedback" role="status"></p>
+        <!-- fim do form -->
+      </section>
+    </main>
+
+    <footer>
+      <p>Feito com HTML e CSS em 2026.</p>
+    </footer>
+    <script src="./scripts/formulario.js"></script>
+    <script src="./scripts/skills.js"></script>
+    <script src="./scripts/github-api.js"></script>
+  </body>
+</html>
